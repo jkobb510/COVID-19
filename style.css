@@ -18,10 +18,10 @@ header
 
   
    background-image:url(FoodProductsCOVID19_1600x900_0.jpg);
-    width: ;
-    height: 240vh; 
+    height: 260%; 
     background-size: cover;
     background-position: center;
+    background-repeat: repeat-y;
     color: black;
     font-family: "Arial", sans-serif;
     padding-left: 30px;
@@ -29,6 +29,15 @@ header
 
 
 }
+.button4 {
+    background-color: transparent; 
+    color: black;
+    font-weight: 100;
+    text-align: center;
+    font-size:26px;
+    margin: 25px;
+} /* Gray */
+
 
 .main-nav
 {
@@ -49,3 +58,4 @@ header
     font-family: "Arial", sans-serif;
     font-size: 20px;
 }
+
