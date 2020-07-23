@@ -18,7 +18,7 @@ header
 
   
    background-image:url(FoodProductsCOVID19_1600x900_0.jpg);
-    height: auto; 
+    height: cover; 
     max-height: 110%;
     background-size: cover;
     background-position: center;
