@@ -20,6 +20,8 @@ header
    background-image:url(FoodProductsCOVID19_1600x900_0.jpg);  
 background-repeat: no-repeat;
   background-size: 100% 100%;
+ background-attachment: fixed;
+background-position: center;
     
     color: black;
     font-family: "Arial", sans-serif;
