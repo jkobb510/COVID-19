@@ -1,6 +1,4 @@
-*
-
-{
+*{
     margin: 0;
     padding: 0;
 }
@@ -8,7 +6,6 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: ;
   height: 60vh;
 }
 .imageborder {
@@ -21,16 +18,12 @@ header
 {
 
   
-   background-image:url(FoodProductsCOVID19_1600x900_0.jpg);  
-background-repeat: no-repeat;
-  background-size: cover;
+ background-image:url(FoodProductsCOVID19_1600x900_0.jpg);  
+ background-repeat: no-repeat;
+ background-size: cover;
  background-attachment: fixed;
-background-position: center;
-padding-bottom: 10px;
-    
-    color: black;
+ background-position: center;    
     font-family: "Arial", sans-serif;
-    padding-left: 30px;
     text-align: center;
 
 
