@@ -11,7 +11,11 @@
   width: ;
   height: 60vh;
 }
-
+.imageborder {
+    padding: 10px;
+    border: 1px solid black;
+    border-style: double;
+}
 
 header
 {
