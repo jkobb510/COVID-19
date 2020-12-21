@@ -17,14 +17,14 @@ body{
   height: 60vh;
 }
 .imageborder {
-    padding: 10px;
     border: 1px solid black;
     border-style: double;
     max-width: 60%;
     max-height: 50%;
     padding: 20px;
     background-color: rgba(30,144,255 ,0.3 );
-        }
+    margin: auto;
+    }
 
 
 .button4 {
