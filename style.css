@@ -1,4 +1,4 @@
-body{
+.page{
     background-image:url(FoodProductsCOVID19_1600x900_0.jpg);  
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +23,6 @@ body{
     max-height: 50%;
     padding: 20px;
     background-color: rgba(30,144,255 ,0.3 );
-    margin: auto;
     }
 
 
