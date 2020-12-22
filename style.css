@@ -18,7 +18,7 @@ margin: auto;
   height: 60vh;
 }
 .imageborder {
-    border: 1px solid #32CD32;
+    border: 3px solid #32CD32;
     border-style: double;
     max-width: 60%;
     max-height: 50%;
