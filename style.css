@@ -18,11 +18,11 @@ margin: auto;
   height: 60vh;
 }
 .imageborder {
-    border: 10px solid rgba(50,205,50 ,0.3 );
+    border: 10px solid rgba(50,205,50 ,0.5 );
     max-width: 60%;
     max-height: 50%;
     padding: 20px;
-    background-color: rgba(30,144,255 ,0.3 );
+    background-color: rgba(30,144,255 ,0.5 );
     }
 
 
