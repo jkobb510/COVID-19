@@ -20,7 +20,7 @@ margin: auto;
 .imageborder {
     border: 5px solid rgba(50,205,50 ,0.5 );
     max-width: 60%;
-    max-height: 50%;
+    max-height: 60%;
     padding: 5px;
     background-color: rgba(30,144,255 ,0.5 );
     }
