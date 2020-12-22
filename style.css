@@ -39,7 +39,7 @@ margin: auto;
 .main-nav
 {
     float: center;
-        list-style: none;
+    list-style: none;
     margin-top: 30px;
 }
 .main-nav li
@@ -55,4 +55,16 @@ margin: auto;
     font-family: "Arial", sans-serif;
     font-size: 20px;
 }
-
+        p.a{
+            text-align: left;
+            margin: 55px 135px 40px;
+            font-size: 120%
+            
+            
+        }
+        p.b{
+            text-indent: 40px;
+            margin: 0px 55px 20px;
+            position: relative;
+            bottom: 20px;
+}
