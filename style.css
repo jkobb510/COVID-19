@@ -19,7 +19,6 @@ margin: auto;
 }
 .imageborder {
     border: 10px solid #32CD32;
-    border-style: double;
     max-width: 60%;
     max-height: 50%;
     padding: 20px;
