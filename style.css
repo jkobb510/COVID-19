@@ -18,7 +18,7 @@ margin: auto;
   height: 60vh;
 }
 .imageborder {
-    border: 5px solid rgba(50,205,50 ,0.5 );
+    border: 2px solid rgba(50,205,50 ,0.5 );
     max-width: 60%;
     max-height: 60%;
     padding: 5px;
