@@ -36,6 +36,8 @@ margin: auto;
     font-size:26px;
     margin: 25px;
     text-decoration: none;
+    float: center;
+    list-style: none;
 } 
 
 
