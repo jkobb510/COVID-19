@@ -34,11 +34,14 @@ margin: auto;
     font-weight: 100;
     padding: 2px;
     max-width: 200px;
+    height: 100px;
     text-align: center;
     font-size:20px;
     margin: 5px;
     margin-bottom: 2%;
     text-decoration: none;
+    display: inline-block;
+
 } 
 
 
