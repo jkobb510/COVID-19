@@ -41,8 +41,14 @@ margin: auto;
     margin-bottom: 2%;
     text-decoration: none;
     position: relative;
+    flex:10%;
 
 } 
+@media (max-width: 600px) {
+  .button4{
+    flex: 100%;
+  }
+}
 
 
 .main-nav
