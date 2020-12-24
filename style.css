@@ -26,7 +26,12 @@ margin: auto;
     padding: 5px;
     background-color: rgba(60, 60, 60, 0.2);
     }
-
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
 
 .button4 {
     background-color: rgba(60, 60, 60, 0.2);
