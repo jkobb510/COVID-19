@@ -43,7 +43,7 @@ margin: auto;
     font-size:15px;
     margin: 5px;
     text-decoration: none;
-    flex:20%;
+    flex:1;
 
 } 
 @media (max-width: 1200px) {
@@ -59,7 +59,7 @@ margin: auto;
     list-style: none;
     margin-top: 30px;
     margin-bottom: 20px;
-    max-height: 50px;
+    max-height: 100px;
     text-decoration: none;
     max-width: 1200px;
 
