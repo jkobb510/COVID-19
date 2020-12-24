@@ -38,12 +38,12 @@ margin: auto;
     border: 2px solid black;
     font-weight: 100;
     padding: 1px;
-    max-width: 200px;
+    max-width: auto;
     text-align: center;
-    font-size:15px;
+    font-size:20px;
     margin: 5px;
     text-decoration: none;
-    flex:1;
+    flex: auto;
 
 } 
 @media (max-width: 1200px) {
