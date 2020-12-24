@@ -36,11 +36,9 @@ margin: auto;
     max-width: 200px;
     text-align: center;
     font-size:20px;
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin: 5px;
     text-decoration: none;
+    display: inline-block;
 } 
 
 
