@@ -32,7 +32,7 @@ margin: auto;
   flex-wrap: wrap;
   font-size: 20px;
   text-align: center;
-  max-width:280px;
+  max-width:300px;
 }
 
 .button4 {
@@ -40,7 +40,7 @@ margin: auto;
     border: 1px solid black;
     font-weight: 80;
     padding: 1px;
-    font-size:30px;
+    font-size:25px;
     margin: 5px;
     text-decoration: none;
     flex: 20%;
