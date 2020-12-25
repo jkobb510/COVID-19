@@ -44,6 +44,8 @@ margin: auto;
     margin: 5px;
     text-decoration: none;
     flex: 20%;
+    box-sizing: border-box;
+
     } 
 
 @media (max-width: 1200px) {
