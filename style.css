@@ -9,7 +9,8 @@ margin: auto;
     background-position: center;    
     font-family: "Arial", sans-serif;
     text-align: center;
-    position: absolute;
+    width:100%;
+    height:100%;
 }
 .center {
   display: block;
