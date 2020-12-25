@@ -3,7 +3,6 @@ margin: auto;
 }
 .page{
     background-image:url(images/FoodProductsCOVID19_1600x900_0.jpg);  
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;    
