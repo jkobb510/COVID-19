@@ -54,7 +54,7 @@ margin: auto;
     flex: 100%;
   }
 }
-@media screen and (min-width: 370 px) {
+@media screen and (min-height: 660 px) {
 }
 
 
