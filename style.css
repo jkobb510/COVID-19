@@ -27,7 +27,7 @@ margin: auto;
     background-color: rgba(60, 60, 60, 0.2);
     }
 .flex-container {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   font-size: 20px;
@@ -40,7 +40,7 @@ margin: auto;
     border: 1px solid black;
     font-weight: 80;
     padding: 1px;
-    font-size:25px;
+    font-size:22px;
     margin: 5px;
     text-decoration: none;
     flex: 20%;
