@@ -68,12 +68,12 @@ margin: auto;
 p.a{
     text-align: left;
     margin: 35px 135px 40px;
-    font-size: 120%    
 }
         
-p.b{
+.b{
     text-indent: 40px;
     margin: 10px 55px 20px;
     position: relative;
     bottom: 20px;
+    
 }
