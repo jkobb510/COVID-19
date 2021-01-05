@@ -50,6 +50,7 @@ body:before{
   cursor: pointer;
   min-width: 110px;
   border-radius: 5px;
+  margin: auto;
 
 
 }
@@ -61,7 +62,7 @@ body:before{
 
 .dropdown {
   display: inline-block;
-  margin-left: 40%;
+  margin-left: 30%;
 
 }
 
@@ -69,11 +70,10 @@ body:before{
   display: none;
   text-align: center;
   background-color: #f1f1f1;
-  max-width: 50px;
+  max-width: 150px;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  margin: auto;
   margin-left: -20%;
   border-radius: 5px;
 
