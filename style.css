@@ -61,8 +61,9 @@ body:before{
 }
 
 .dropdown {
-  display: block;
+  display: inline-block;
   margin: auto;
+  margin-top: 20px;
 
 }
 
