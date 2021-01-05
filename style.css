@@ -48,7 +48,8 @@ body:before{
   font-size: 18px;
   border: none;
   cursor: pointer;
-  min-width: 110px;
+  max-width: 150px;
+  max-height: 45px;
   border-radius: 5px;
   margin: auto;
 
