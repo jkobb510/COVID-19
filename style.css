@@ -44,7 +44,7 @@ body:before{
 .dropbtn {
   background-color: rgba(60, 60, 60, 0.2);
   color: white;
-  padding: 8px;
+  padding: 5px;
   font-size: 18px;
   border: none;
   cursor: pointer;
