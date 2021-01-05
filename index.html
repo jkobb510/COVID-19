@@ -8,7 +8,7 @@
     
             <a href ="index.html"> <img src="images/logo.png"> </a><br>
             <div class="dropdown">
-              <button onclick="myFunction()" class="dropbtn"><img src="images/menu.png"> Menu </button>
+              <button onclick="myFunction()" class="dropbtn"><img src="images/menu.png"> </button>
               <div id="myDropdown" class="dropdown-content">
                 <a href="index.html" class= "buttonlist">HOME</a>
                <a href="SARS-CoV-2.html"  class= "buttonlist">   VIROLOGY </a>
@@ -24,7 +24,6 @@
             function myFunction() {
               document.getElementById("myDropdown").classList.toggle("show");
             }
-
             // Close the dropdown if the user clicks outside of it
             window.onclick = function(event) {
               if (!event.target.matches('.dropbtn')) {
