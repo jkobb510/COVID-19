@@ -63,6 +63,7 @@ body:before{
 .dropdown {
   display: inline-block;
   margin: auto;
+  position: absolute;
 
 }
 
@@ -76,6 +77,7 @@ body:before{
   z-index: 1;
   margin-left: -20%;
   border-radius: 5px;
+  position: absolute;
 
 
 }
