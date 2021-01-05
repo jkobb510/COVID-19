@@ -9,14 +9,37 @@
     <body class="page">
 
             <a href ="index.html"> <img src="images/logo.png"> </a>
-        <div class="main-nav">
-            <div class = "flex-container">
-                <a href="SARS-CoV-2.html"  class= "button4"> &#8202;  SARS-CoV-2 </a>
-                <a href="Pathophysiology.html" class= "button4"> &#8201;  PATHOPHYSIOLOGY </a>
-                <a href="statistics.html"  class= "button4"> &#8201; LIVE STATISTICS </a>
-                <a href="Treatments.html" class= "button4">  TREATMENTS </a>
-           </div>
-        </div>
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">Navigation</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="index.html" class= "buttonlist">HOME</a>
+               <a href="SARS-CoV-2.html"  class= "buttonlist">   VIROLOGY </a>
+                            <a href="Pathophysiology.html" class= "buttonlist"> PATHOPHYSIOLOGY </a>
+                            <a href="statistics.html"  class= "buttonlist">  LIVE STATISTICS </a>
+                            <a href="Treatments.html" class= "buttonlist">  TREATMENTS </a>
+
+            </div>
+            <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+            </script>
         <div style="margin-top: 50px;">
         <h2>PATHOPHYSIOLOGY</h2>
         </div>
