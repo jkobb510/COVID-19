@@ -48,7 +48,7 @@ body:before{
   font-size: 18px;
   border: none;
   cursor: pointer;
-  min-width: 350px;
+  min-width: 150px;
   min-height: 50px;
   border-radius: 5px;
   margin: auto;
