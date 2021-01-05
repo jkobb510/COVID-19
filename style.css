@@ -49,7 +49,7 @@ body:before{
   border: none;
   cursor: pointer;
   min-width: 110px;
-      border-radius: 5px;
+  border-radius: 5px;
 
 
 }
@@ -60,7 +60,6 @@ body:before{
 }
 
 .dropdown {
-  position: absolute;
   display: inline-block;
   margin-left: 40%;
 
@@ -68,7 +67,6 @@ body:before{
 
 .dropdown-content {
   display: none;
-  position: absolute;
   text-align: center;
   background-color: #f1f1f1;
   min-width: 50px;
