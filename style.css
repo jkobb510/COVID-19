@@ -39,21 +39,62 @@ body:before{
     background-color: rgba(60, 60, 60, 0.2);
     margin: auto;
     }
-.flex-container {
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 20px;
-  text-align: center;
-  max-width:290px;
+
+
+.dropbtn {
+  background-color: rgba(60, 60, 60, 0.2);
+  color: white;
+  padding: 8px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  min-width: 110px;
+      border-radius: 5px;
+
+
 }
 
-.button4 {
-    background-color: rgba(190, 190, 190, 0.6);
-    border: 1px solid rgba(60, 60, 60, 0.3);
+.dropbtn:hover, .dropbtn:focus {
+  background-color: rgba(0,0,255 ,0.5);
+
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  margin-left: 40%;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  text-align: center;
+  background-color: #f1f1f1;
+  min-width: 50px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: -20%;
+  border-radius: 5px;
+
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 14px;
+  text-decoration: none;
+  display: block;
+  border-radius: 10px;
+
+}
+.buttonlist {
+    background-color: rgba(190, 190, 190, 0.3);
+    border: 1px solid rgba(0,0,255 ,0.2);
     font-weight: 50;
     padding: 1px;
-    font-size:19px;
+    font-size:12px;
     margin: 3px;
     text-decoration: none;
     flex: 20%;
@@ -61,21 +102,9 @@ body:before{
     font-family: "Verdana";
     
     } 
+.dropdown a:hover {background-color: rgba(0,0,255 ,0.2);}
 
-@media (max-width: 2000px) {
-  .button4{
-    flex: 100%;
-  }
-}
-
-
-
-.main-nav
-{
-    float: center;
-    box-sizing: border-box;
-}
-
+.show {display: block;}
         
 p.a{
     text-align: left;
