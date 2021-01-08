@@ -19,7 +19,36 @@
     
             </div>
             </div>
-        
+                <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn"><img src="images/menu.png"> </button>
+              <div id="myDropdown" class="dropdown-content">
+                  <a href="index.html" class= "buttonlist">HOME</a>
+                  <a href="SARS-CoV-2.html"  class= "buttonlist">   VIROLOGY </a>                     
+                  <a href="Pathophysiology.html" class= "buttonlist"> PATHOPHYSIOLOGY </a>                            
+                  <a href="statistics.html"  class= "buttonlist">  LIVE STATISTICS </a>       
+                  <a href="Treatments.html" class= "buttonlist">  TREATMENTS </a>
+
+            </div>
+            </div>
+                    
+        <script>
+        function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+            </script>
          <br><br><br>
         <h2>25 COUNTRIES WITH MOST CASES: LIVE STATISTICS</h2>
         <p class="b"> 
