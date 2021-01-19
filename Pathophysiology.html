@@ -23,14 +23,14 @@
             <script>
             /* When the user clicks on the button, 
             toggle between hiding and showing the dropdown content */
-            function myFunction(id) {
+            function myFunction() {
                 var dropdowns = document.getElementsByClassName("dropdown-content");
                 var i;
                 for (i = 0; i < dropdowns.length; i++) {
                   var openDropdown = dropdowns[i];
                     openDropdown.classList.remove('show');
                   }
-                document.getElementById(id).classList.toggle("show");
+                document.getElementById("myDropdown").classList.toggle("show");
                 }
               
             
