@@ -1,3 +1,3 @@
 # COVID-19
 
-Website: covid19website-jkobb510.vercel.app
+Website: https://covid19website-jkobb510.vercel.app
