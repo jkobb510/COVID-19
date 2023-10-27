@@ -27,6 +27,11 @@ body:before {
     width: 100%;
     height: 100%;
 }
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .imageborder {
     border: 3px solid rgba(30, 144, 255, 0.3);

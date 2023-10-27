@@ -1,29 +1,38 @@
 <html>
-<title>COVID-19</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
-<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
-  <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
-  <a href="index.html" class="w3-bar-item w3-button">Home</a>
-  <a href="videos.html" class="w3-bar-item w3-button">Videos</a>
-  <a href="research.html" class="w3-bar-item w3-button">Research</a>
-</div>
-<div class="w3-black">
+  <title>COVID-19</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <body>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left"
+      style="display:none" id="leftMenu">
+      <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close
+        &times;</button>
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="videos.html" class="w3-bar-item w3-button">Videos</a>
+      <a href="research.html" class="w3-bar-item w3-button">Research</a>
+    </div>
+    <div class="w3-black">
+      <button class="w3-button w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+    </div>
+    <div class="w3-container">
+        <div class="logo-container">
+          <img style="max-height: 10vh;" src="images/logo.png">
+        </div> 
+    </div>
+    <div class="w3-container">
+    </div>
+    <script>
+      function openLeftMenu() {
+        document.getElementById("leftMenu").style.display = "block";
+      }
 
-  <button class="w3-button w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
-</div>
-<div class="w3-transparent">
-  <div class="w3-container w3-center">
-    <img style="max-height: 10vh;" src="images/logo.png">
-  </div>
-</div>
+      function closeLeftMenu() {
+        document.getElementById("leftMenu").style.display = "none";
+      }
+    </script>
 
-<div class="w3-container">
-</div>
-
-<script>
+    <script>
 function openLeftMenu() {
   document.getElementById("leftMenu").style.display = "block";
 }
@@ -32,12 +41,12 @@ function closeLeftMenu() {
   document.getElementById("leftMenu").style.display = "none";
 }
 </script>
-               
-<div style="margin-top: 25px;">
-      <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-e21b8f1d-3572-4441-a2ed-5066c1f4aaab" data-elfsight-app-lazy></div>
-</div>
-        
-               
-                
-</html>
+
+    <div style="margin-top: 25px;">
+      <script src="https://static.elfsight.com/platform/platform.js"
+        data-use-service-core defer></script>
+      <div class="elfsight-app-e21b8f1d-3572-4441-a2ed-5066c1f4aaab"
+        data-elfsight-app-lazy></div>
+    </div>
+
+  </html>
