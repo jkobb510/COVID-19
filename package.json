@@ -1,0 +1,10 @@
+{
+  "name": "covid-19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run main" },
+  "author": "",
+  "license": "ISC"
+}
