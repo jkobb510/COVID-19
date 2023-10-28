@@ -12,7 +12,7 @@
     height: 100%;
 }
 .logo-container {
-  display: flex;
+  display: float;
   justify-content: center;
   align-items: center;
 }
@@ -24,7 +24,6 @@
     margin-right: 5%;
     margin-bottom: 25px;
     border: rgb(164, 164, 164) 1px solid;
-    padding: 5px;
     border-radius: 3px;
 
 }

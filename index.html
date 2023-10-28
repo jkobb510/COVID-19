@@ -5,27 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
     </head>
     <body>
-        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left"
-            style="display:none" id="leftMenu">
-            <button onclick="closeLeftMenu()"
-                class="w3-bar-item w3-button w3-large">Close &times;
-            </button>
-            <a href="index.html" class="w3-bar-item w3-button">Home</a>
-            <a href="videos.html" class="w3-bar-item w3-button">Videos</a>
-            <a href="research.html" class="w3-bar-item w3-button">Research</a>
-        </div>
-        <div class="w3-light-grey">
-            <button class="w3-button w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
-            <div class="logo-container">
-                <img
-                    style="max-height: 10vh; margin-top: 10px; margin-bottom: 10px;"
-                    src="images/logo.png">
-            </div>
-        </div>
-
+  <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
+    <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="videos.html" class="w3-bar-item w3-button">Videos</a>
+    <a href="research.html" class="w3-bar-item w3-button">Research</a>
+  </div>
+  <div class="w3-light-grey">
+    <button class="w3-button w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+    <div class="logo-container">
+      <img style="max-height: 10vh; margin-top: 10px; margin-bottom: 10px;" src="images/logo.png">
+    </div>
+  </div>
         <script>
       function openLeftMenu() {
         document.getElementById("leftMenu").style.display = "block";
@@ -35,7 +28,7 @@
         document.getElementById("leftMenu").style.display = "none";
       }
     </script>
-        <h4 style="margin-top: 25px;">COVID-19</h4>
+        <h3>COVID-19</h3>
         <p style="margin-top: 25px;">
             COVID-19 is an infectious disease caused by a novel coronavirus,
             named severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).
@@ -62,13 +55,13 @@
             measures like social distancing, quarantine, ventilation, mask
             usage, hand hygiene, and symptomatic treatment. Work is ongoing to
             develop drugs to combat the virus effectively.
-
         </p>
         <div class="widget">
             <script src="https://static.elfsight.com/platform/platform.js"
                 data-use-service-core defer></script>
             <div class="elfsight-app-84c98770-1490-4eae-8679-30f19a66a914"
-                data-elfsight-app-lazy></div>
+                data-elfsight-app-lazy>
+            </div>
         </div>
     </body>
 </html>
