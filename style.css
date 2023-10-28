@@ -4,22 +4,8 @@
     text-align: center;
 }
 
-body:before {
-    content: "";
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -10;
-    background-size: cover;
-}
 
 .page {
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
     font-family: "Arial", sans-serif;
     text-align: center;
     width: 100%;
@@ -31,29 +17,28 @@ body:before {
   align-items: center;
 }
 
-.imageborder {
-    border: 3px solid rgba(30, 144, 255, 0.3);
-    min-width: 30%;
-    min-height: 20%;
-    max-width: 60%;
-    max-height: 45%;
+
+.widget {
+    margin-top: 55px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 25px;
+    border: rgb(164, 164, 164) 1px solid;
     padding: 5px;
-    background-color: rgba(60, 60, 60, 0.2);
-    margin: auto;
+    border-radius: 3px;
+
 }
 
-.show {
-    display: block;
-}
-
-p.a {
+p{
     text-align: left;
-    margin: 35px 135px 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15px;
 }
 
-.b {
-    text-indent: 40px;
-    margin: 10px 55px 20px;
-    position: relative;
-    bottom: 20px;
+div{
+    justify-content: center;
+    align-items: center;
 }
