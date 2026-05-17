@@ -1,0 +1,43 @@
+* {
+    margin: auto;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+
+.page {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.logo-container {
+  display: float;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.widget {
+    margin-top: 55px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 25px;
+    border: rgb(164, 164, 164) 1px solid;
+    border-radius: 3px;
+
+}
+
+p{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+}
+
+div{
+    justify-content: center;
+    align-items: center;
+}
