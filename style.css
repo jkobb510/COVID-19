@@ -75,9 +75,5 @@ body.dark-mode #leftMenu button {
 }
 
 #darkModeIcon {
-  filter: brightness(0) invert(1);
-}
-
-body.dark-mode #darkModeIcon {
-  filter: brightness(0) invert(1) brightness(0.67);
+  filter: brightness(0);
 }
