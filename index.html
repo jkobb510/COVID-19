@@ -15,19 +15,13 @@
   </div>
   <div class="w3-light-grey">
     <button class="w3-button w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+    <button class="w3-button w3-right" onclick="toggleDarkMode()" style="padding: 10px;">
+      <img id="darkModeIcon" src="images/dark-theme-svgrepo-com.svg" style="width: 30px; height: 30px; vertical-align: middle;">
+    </button>
     <div class="logo-container">
       <img style="max-height: 10vh; margin-top: 10px; margin-bottom: 10px;" src="images/logo.png">
     </div>
   </div>
-        <script>
-      function openLeftMenu() {
-        document.getElementById("leftMenu").style.display = "block";
-      }
-
-      function closeLeftMenu() {
-        document.getElementById("leftMenu").style.display = "none";
-      }
-    </script>
         <h3>COVID-19</h3>
         <p style="margin-top: 25px;">
             COVID-19 is an infectious disease caused by a novel coronavirus,
@@ -56,12 +50,23 @@
             usage, hand hygiene, and symptomatic treatment. Work is ongoing to
             develop drugs to combat the virus effectively.
         </p>
-        <div class="widget">
+
+    <div class="widget">
             <script src="https://static.elfsight.com/platform/platform.js"
                 data-use-service-core defer></script>
             <div class="elfsight-app-84c98770-1490-4eae-8679-30f19a66a914"
                 data-elfsight-app-lazy>
             </div>
-        </div>
+      </div>
+        <script src="darkmode.js"></script>
+            <script>
+              function openLeftMenu() {
+                document.getElementById("leftMenu").style.display = "block";
+              }
+
+              function closeLeftMenu() {
+                document.getElementById("leftMenu").style.display = "none";
+              }
+            </script>
     </body>
 </html>
