@@ -15,21 +15,26 @@
   </div>
   <div class="w3-light-grey">
     <button class="w3-button w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+    <button class="w3-button w3-right" onclick="toggleDarkMode()" style="padding: 10px;">
+      <img id="darkModeIcon" src="images/dark-theme-svgrepo-com.svg" style="width: 30px; height: 30px; vertical-align: middle;">
+    </button>
     <div class="logo-container">
       <img style="max-height: 10vh; margin-top: 10px; margin-bottom: 10px;" src="images/logo.png">
     </div>
   </div>
+  <div>
   <h3>Videos</h3>
-  <script>
-    function openLeftMenu() {
-      document.getElementById("leftMenu").style.display = "block";
-    }
 
-    function closeLeftMenu() {
-      document.getElementById("leftMenu").style.display = "none";
-    }
-  </script>
-  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-    <div class="elfsight-app-770526dc-3908-4fde-928a-eba43e38454e" data-elfsight-app-lazy></div>
+      <script src="darkmode.js"></script>
+      <script>
+        function openLeftMenu() {
+          document.getElementById("leftMenu").style.display = "block";
+        }
+
+        function closeLeftMenu() {
+          document.getElementById("leftMenu").style.display = "none";
+        }
+      </script>
+        </div>
 </body>
 </html>
